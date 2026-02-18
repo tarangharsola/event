@@ -68,7 +68,7 @@ export default function LoginPage() {
           <button disabled={loading} type="submit">
             {loading ? 'Logging in…' : 'Login'}
           </button>
-          <div className="small" style={{ color: '#fca5a5', marginTop: 10 }}>
+          <div className="small errorText" style={{ marginTop: 10 }}>
             {error}
           </div>
         </form>

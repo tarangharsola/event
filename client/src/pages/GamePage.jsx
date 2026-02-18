@@ -257,10 +257,10 @@ export default function GamePage() {
               </button>
             </div>
           </form>
-          <div className="small" style={{ color: '#86efac', marginTop: 8 }}>
+          <div className="small successText" style={{ marginTop: 8 }}>
             {guessSuccess}
           </div>
-          <div className="small" style={{ color: '#fca5a5', marginTop: 6 }}>
+          <div className="small errorText" style={{ marginTop: 6 }}>
             {guessError}
           </div>
         </div>
@@ -291,7 +291,7 @@ export default function GamePage() {
         <div className="small" style={{ marginTop: 8 }}>
           Send is disabled for 2 seconds after each prompt.
         </div>
-        <div className="small" style={{ color: '#fca5a5', marginTop: 10 }}>
+        <div className="small errorText" style={{ marginTop: 10 }}>
           {error}
         </div>
       </div>

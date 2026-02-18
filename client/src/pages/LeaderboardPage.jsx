@@ -74,7 +74,7 @@ export default function LeaderboardPage() {
           </tbody>
         </table>
 
-        <div className="small" style={{ color: '#fca5a5', marginTop: 10 }}>
+        <div className="small errorText" style={{ marginTop: 10 }}>
           {error}
         </div>
       </div>
