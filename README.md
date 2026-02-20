@@ -6,16 +6,11 @@ Full web app for a Gandalf-style prompt-injection game.
 
 - Node.js 18+ (for built-in `fetch`)
 - A Groq API key
+- Python 3.9+ (optional, for leak-audit script)
 
 ## Setup
 
-1) Install deps
-
-`npm install`
-
-`npm --prefix client install`
-
-2) Configure secrets (local only)
+1) Configure secrets (local only)
 
 - Set Groq key in `.env.local` (recommended)
 	- `GROQ_API_KEY=...`
@@ -27,19 +22,13 @@ Full web app for a Gandalf-style prompt-injection game.
 
 The UI also shows a non-secret “level word” (codename) per level (defined in backend).
 
-3) Run
+2) Run
 
 Single command (recommended):
 
 `npm run boot`
 
 This runs: `npm install`, `npm --prefix client install`, `npm run build`, `npm start`.
-
-Manual:
-
-`npm run build`
-
-`npm start`
 
 Open `http://localhost:3000`.
 
@@ -59,3 +48,16 @@ Open `http://localhost:3000`.
 - `npm --prefix client run dev` runs the React dev server on `http://localhost:5173`
 
 For the simplest workflow, build the client and use `npm start` to serve it.
+
+## Security Testing (Defensive)
+
+Use `password_tester.py` to audit whether the model leaks the level password in responses (full leaks or partial metadata leaks). The script does not print passwords; any detected leak output is password-redacted.
+
+Run the leak-audit script (does not print passwords):
+
+`py -3 password_tester.py --suite advanced --shuffle --seed 123 --detect-metadata`
+
+Reports:
+
+- `leak_audit_summary.csv`
+- `leak_audit_report.jsonl` (password-redacted)
