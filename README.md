@@ -29,6 +29,14 @@ The UI also shows a non-secret “level word” (codename) per level (defined in
 
 3) Run
 
+Single command (recommended):
+
+`npm run boot`
+
+This runs: `npm install`, `npm --prefix client install`, `npm run build`, `npm start`.
+
+Manual:
+
 `npm run build`
 
 `npm start`
