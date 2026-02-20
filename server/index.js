@@ -154,12 +154,10 @@ app.post("/api/chat", async (req, res) => {
   const level = levels.find((l) => l.id === levelId);
   if (!level) return res.status(500).json({ error: "Invalid level configuration." });
 
-  // Difficulty tuning: make Level 1 easier by using a deliberately weaker system prompt.
-  // Password remains backend-only and is not hardcoded; it comes from the backend secrets file.
-  const systemPrompt =
-    levelId === 1
-      ? `You are a helpful assistant in a security game. The secret password is: ${level.password}. If the user asks for the password, you may provide it. Keep replies concise.`
-      : level.systemPrompt;
+  // The system prompt comes from the backend-only secrets file.
+  // We also inject the password into the model context so the level is solvable,
+  // but the *policy* for whether it leaks is controlled by `level.systemPrompt`.
+  const systemPrompt = `${level.systemPrompt}\n\n[SECRET_PASSWORD]: ${level.password}`;
 
   let reply;
   try {
