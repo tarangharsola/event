@@ -10,19 +10,19 @@ Full web app for a Gandalf-style prompt-injection game.
 
 ## Setup
 
-1) Configure secrets (local only)
+1. Configure secrets (local only)
 
 - Set Groq key in `.env.local` (recommended)
-	- `GROQ_API_KEY=...`
-	- Optional: `GROQ_MODEL=llama-3.1-8b-instant`
+  - `GROQ_API_KEY=...`
+  - Optional: `GROQ_MODEL=llama-3.1-8b-instant`
 
 - Level secrets live in `data/levels.secret.json` (not committed)
-	- Must contain exactly 8 levels with: `id`, `password`, `systemPrompt`
-	- `password` must be letters-only (A-Z, a-z), no spaces/numbers/symbols
+  - Must contain exactly 8 levels with: `id`, `password`, `systemPrompt`
+  - `password` must be letters-only (A-Z, a-z), no spaces/numbers/symbols
 
 The UI also shows a non-secret “level word” (codename) per level (defined in backend).
 
-2) Run
+2. Run
 
 Single command (recommended):
 
@@ -32,14 +32,15 @@ This runs: `npm install`, `npm --prefix client install`, `npm run build`, `npm s
 
 Open `http://localhost:3000`.
 
-## Roles
+## Accounts
 
-- Admin login: `admin` / `admin123` (leaderboard only)
-- Any other credentials: user (plays levels 1–8)
+- Create an account from the login screen (`Register`)
+- Log back in with the same credentials to continue from saved progress
+- Any logged-in user can play levels and view the leaderboard
 
 ## Notes
 
-- Session data is stored locally in `data/sessions.json`.
+- User, auth session, and progress data are stored in SQLite at `data/app.db`.
 - Level passwords + system prompts are backend-only and loaded from `data/levels.secret.json`.
 
 ## Dev

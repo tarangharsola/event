@@ -605,11 +605,13 @@ button:disabled {
 .chatLog {
 	margin-top: 12px;
 	max-height: 46vh;
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: auto;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	padding-right: 4px;
+	padding-bottom: 4px;
 }
 
 .chatLog::-webkit-scrollbar {
@@ -624,20 +626,31 @@ button:disabled {
 .msg {
 	padding: 10px 12px;
 	border-radius: 12px;
-	line-height: 1.35;
+	line-height: 1.4;
 	white-space: pre-wrap;
+	word-break: break-word;
+	overflow-wrap: anywhere;
 	border: 1px solid rgba(255, 255, 255, 0.14);
 	background: rgba(8, 14, 30, 0.6);
+	max-width: min(82%, 700px);
+	width: auto;
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
 .msg.user {
 	border-color: rgba(104, 240, 255, 0.42);
 	background: rgba(104, 240, 255, 0.12);
+	align-self: flex-end;
+	margin-left: auto;
+	border-top-right-radius: 6px;
 }
 
 .msg.bot {
 	border-color: rgba(157, 123, 255, 0.42);
 	background: rgba(157, 123, 255, 0.1);
+	align-self: flex-start;
+	margin-right: auto;
+	border-top-left-radius: 6px;
 }
 
 .chatComposer {
@@ -650,6 +663,8 @@ button:disabled {
 
 .chatComposer textarea {
 	min-height: 78px;
+	max-height: 190px;
+	resize: vertical;
 }
 
 .tableWrap {
@@ -713,11 +728,26 @@ button:disabled {
 
 .successText {
 	color: var(--success);
+	padding: 6px 8px;
+	border-radius: 10px;
+	background: rgba(77, 255, 184, 0.12);
+	border: 1px solid rgba(77, 255, 184, 0.25);
 }
 
 .errorText {
 	color: var(--danger);
 	min-height: 1.2em;
+	padding: 6px 8px;
+	border-radius: 10px;
+	background: rgba(255, 139, 167, 0.1);
+	border: 1px solid rgba(255, 139, 167, 0.22);
+}
+
+.successText:empty,
+.errorText:empty {
+	padding: 0;
+	border: 0;
+	background: transparent;
 }
 
 @media (max-width: 980px) {

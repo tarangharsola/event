@@ -6,6 +6,7 @@ import Tilt from "react-parallax-tilt";
 import {
 	FiArrowLeft,
 	FiArrowRight,
+	FiAward,
 	FiClock,
 	FiLogOut,
 	FiSend,
@@ -36,7 +37,7 @@ function computeUnlocked(levelStats) {
 
 export default function GamePage() {
 	const navigate = useNavigate();
-	const { sessionId, role } = useMemo(() => getAuth(), []);
+	const { sessionId, username } = useMemo(() => getAuth(), []);
 
 	const [state, setState] = useState({
 		currentLevel: "-",
@@ -62,7 +63,7 @@ export default function GamePage() {
 	const logRef = useRef(null);
 
 	useEffect(() => {
-		if (!sessionId || role !== "user") {
+		if (!sessionId) {
 			navigate("/", { replace: true });
 			return;
 		}
@@ -76,7 +77,7 @@ export default function GamePage() {
 			}
 			setState(data);
 		})();
-	}, [navigate, role, sessionId]);
+	}, [navigate, sessionId]);
 
 	useEffect(() => {
 		// Per-level chat: each level starts with a fresh chat log.
@@ -258,6 +259,7 @@ export default function GamePage() {
 	}
 
 	function onLogout() {
+		apiFetch("/api/logout", { method: "POST" }).catch(() => {});
 		clearAuth();
 		navigate("/", { replace: true });
 	}
@@ -286,8 +288,16 @@ export default function GamePage() {
 					<div>
 						<div className="eyebrow">Live Mission</div>
 						<h1 className="heroTitle heroTitleCompact">Guardian Run</h1>
+						<div className="small">
+							Player: {username || state.username || "Unknown"}
+						</div>
 					</div>
 					<div className="topBarActions">
+						<button
+							className="ghostBtn"
+							onClick={() => navigate("/leaderboard")}>
+							<FiAward /> Leaderboard
+						</button>
 						<span className="pill iconPill">
 							<FiClock />
 							{sendDisabled ? `${cooldownSeconds}s cooldown` : "Ready"}
@@ -495,7 +505,7 @@ export default function GamePage() {
 										}}
 										animate={{ opacity: 1, y: 0 }}
 										exit={{ opacity: 0, y: -8 }}
-										whileHover={{ scale: 1.01, y: -1 }}
+										whileHover={{ y: -1 }}
 										transition={{ duration: 0.2 }}>
 										{m.text}
 									</motion.div>

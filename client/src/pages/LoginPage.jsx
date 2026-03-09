@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FiKey, FiShield, FiUser } from "react-icons/fi";
 import Tilt from "react-parallax-tilt";
 import { useNavigate } from "react-router-dom";
-import { getAuth, setAuth } from "../api.js";
+import { apiFetch, getAuth, setAuth } from "../api.js";
 
 export default function LoginPage() {
 	const navigate = useNavigate();
@@ -11,12 +11,11 @@ export default function LoginPage() {
 	const [password, setPassword] = useState("");
 	const [error, setError] = useState("");
 	const [loading, setLoading] = useState(false);
+	const [mode, setMode] = useState("login");
 
 	useEffect(() => {
-		const { sessionId, role } = getAuth();
-		if (sessionId && role === "admin")
-			navigate("/leaderboard", { replace: true });
-		if (sessionId && role === "user") navigate("/game", { replace: true });
+		const { sessionId } = getAuth();
+		if (sessionId) navigate("/game", { replace: true });
 	}, [navigate]);
 
 	async function onLogin(e) {
@@ -25,20 +24,21 @@ export default function LoginPage() {
 		setLoading(true);
 
 		try {
-			const resp = await fetch("/api/login", {
+			const route = mode === "register" ? "/api/register" : "/api/login";
+			const { ok, data } = await apiFetch(route, {
 				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({ username, password }),
+				body: { username, password },
 			});
-			const data = await resp.json().catch(() => ({}));
-			if (!resp.ok) {
+			if (!ok) {
 				setError(data.error || "Login failed.");
 				return;
 			}
 
-			setAuth({ sessionId: data.sessionId, role: data.role });
-			if (data.role === "admin") navigate("/leaderboard", { replace: true });
-			else navigate("/game", { replace: true });
+			setAuth({
+				sessionId: data.sessionId,
+				username: data.username || username.trim(),
+			});
+			navigate("/game", { replace: true });
 		} catch {
 			setError("Network error.");
 		} finally {
@@ -60,7 +60,7 @@ export default function LoginPage() {
 					<h1 className="heroTitle">Prompt Breaker Arena</h1>
 					<p className="heroSubtitle">
 						Breach eight adaptive defense layers, recover hidden passwords, and
-						push your name to the top of the leaderboard.
+						track your progress across sessions.
 					</p>
 					<div className="badgeRow">
 						<motion.span
@@ -71,7 +71,7 @@ export default function LoginPage() {
 						<motion.span
 							whileHover={{ y: -2 }}
 							className="pill iconPill pulsePill">
-							<FiKey /> Admin demo: admin / admin123
+							<FiKey /> Persistent account progress
 						</motion.span>
 					</div>
 				</motion.section>
@@ -88,8 +88,35 @@ export default function LoginPage() {
 						initial={{ opacity: 0, y: 24, scale: 0.98 }}
 						animate={{ opacity: 1, y: 0, scale: 1 }}
 						transition={{ delay: 0.1, duration: 0.4 }}>
-						<div className="panelTitle">Enter the Arena</div>
-						<div className="small">Use player credentials or admin access.</div>
+						<div className="panelTitle">
+							{mode === "register" ? "Create Account" : "Welcome Back"}
+						</div>
+						<div className="small">
+							{mode === "register"
+								? "Register to save progress."
+								: "Login to continue your run."}
+						</div>
+
+						<div className="actionRow" style={{ marginTop: 12 }}>
+							<button
+								type="button"
+								className={mode === "login" ? "ghostBtn" : "dangerBtn"}
+								onClick={() => {
+									setMode("login");
+									setError("");
+								}}>
+								Login
+							</button>
+							<button
+								type="button"
+								className={mode === "register" ? "ghostBtn" : "dangerBtn"}
+								onClick={() => {
+									setMode("register");
+									setError("");
+								}}>
+								Register
+							</button>
+						</div>
 
 						<form className="stackForm" onSubmit={onLogin}>
 							<label className="fieldWrap">
@@ -124,7 +151,11 @@ export default function LoginPage() {
 								whileTap={{ scale: 0.985 }}
 								disabled={loading}
 								type="submit">
-								{loading ? "Initializing session..." : "Enter Arena"}
+								{loading
+									? "Please wait..."
+									: mode === "register"
+										? "Create Account"
+										: "Enter Arena"}
 							</motion.button>
 							<div className="small errorText">{error}</div>
 						</form>

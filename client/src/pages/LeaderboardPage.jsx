@@ -2,13 +2,13 @@ import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import Tilt from "react-parallax-tilt";
-import { FiActivity, FiAward, FiLogOut } from "react-icons/fi";
+import { FiActivity, FiArrowLeft, FiAward, FiLogOut } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import { apiFetch, clearAuth, getAuth } from "../api.js";
 
 export default function LeaderboardPage() {
 	const navigate = useNavigate();
-	const { sessionId, role } = getAuth();
+	const { sessionId } = getAuth();
 
 	const [rows, setRows] = useState([]);
 	const [error, setError] = useState("");
@@ -24,7 +24,7 @@ export default function LeaderboardPage() {
 	}, [rows]);
 
 	useEffect(() => {
-		if (!sessionId || role !== "admin") {
+		if (!sessionId) {
 			navigate("/", { replace: true });
 			return;
 		}
@@ -48,9 +48,10 @@ export default function LeaderboardPage() {
 			alive = false;
 			clearInterval(id);
 		};
-	}, [navigate, role, sessionId]);
+	}, [navigate, sessionId]);
 
 	function onLogout() {
+		apiFetch("/api/logout", { method: "POST" }).catch(() => {});
 		clearAuth();
 		navigate("/", { replace: true });
 	}
@@ -66,10 +67,13 @@ export default function LeaderboardPage() {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.35 }}>
 					<div>
-						<div className="eyebrow">Admin Console</div>
+						<div className="eyebrow">Community</div>
 						<h1 className="heroTitle heroTitleCompact">Leaderboard</h1>
 					</div>
 					<div className="topBarActions">
+						<button className="ghostBtn" onClick={() => navigate("/game")}>
+							<FiArrowLeft /> Back to Game
+						</button>
 						<span className="pill iconPill">
 							<FiActivity /> Refreshing every 5s
 						</span>
