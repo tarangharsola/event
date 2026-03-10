@@ -1,0 +1,2705 @@
+{
+  "sessions": {
+    "5e7e8ff1-7057-4851-87a7-b12a62689496": {
+      "sessionId": "5e7e8ff1-7057-4851-87a7-b12a62689496",
+      "username": "test",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T13:56:41.846Z",
+      "lastRequestAt": null
+    },
+    "32f8ddfe-7ebe-438c-a376-c05550dfe4a4": {
+      "sessionId": "32f8ddfe-7ebe-438c-a376-c05550dfe4a4",
+      "username": "test2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T13:56:48.274Z",
+      "lastRequestAt": null
+    },
+    "dc8b2ff4-3243-4268-8371-abbdc239dc2a": {
+      "sessionId": "dc8b2ff4-3243-4268-8371-abbdc239dc2a",
+      "username": "admin",
+      "role": "admin",
+      "createdAt": "2026-02-17T13:56:55.534Z"
+    },
+    "3b5f893e-dfb2-4217-bed0-388c745501df": {
+      "sessionId": "3b5f893e-dfb2-4217-bed0-388c745501df",
+      "username": "admin",
+      "role": "admin",
+      "createdAt": "2026-02-17T14:08:28.259Z"
+    },
+    "99417cea-1f60-49e1-be79-5edeba411f18": {
+      "sessionId": "99417cea-1f60-49e1-be79-5edeba411f18",
+      "username": "u1",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:18:05.602Z",
+      "lastRequestAt": null
+    },
+    "7793f1e8-92d8-49bb-9048-6120059a9b77": {
+      "sessionId": "7793f1e8-92d8-49bb-9048-6120059a9b77",
+      "username": "appla ",
+      "role": "user",
+      "currentLevel": 2,
+      "levelStats": {
+        "1": {
+          "prompts": 5,
+          "completedAt": "2026-02-17T14:30:54.673Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 5,
+      "createdAt": "2026-02-17T14:23:34.907Z",
+      "lastRequestAt": "2026-02-17T14:30:54.334Z"
+    },
+    "74960f05-2154-466d-b093-1e5a7cf21674": {
+      "sessionId": "74960f05-2154-466d-b093-1e5a7cf21674",
+      "username": "",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T14:27:44.188Z",
+      "lastRequestAt": "2026-02-17T14:28:07.102Z"
+    },
+    "a97a6579-d46d-4fce-890d-81e694663ea7": {
+      "sessionId": "a97a6579-d46d-4fce-890d-81e694663ea7",
+      "username": "testuser",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:34:55.310Z",
+      "lastRequestAt": null
+    },
+    "680c5931-6de2-462a-b11c-daa2a7e92694": {
+      "sessionId": "680c5931-6de2-462a-b11c-daa2a7e92694",
+      "username": "testuser2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:35:20.943Z",
+      "lastRequestAt": null
+    },
+    "fdc05b74-471e-4000-94ba-3ffc4580e77e": {
+      "sessionId": "fdc05b74-471e-4000-94ba-3ffc4580e77e",
+      "username": "probe",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:35:59.522Z",
+      "lastRequestAt": null
+    },
+    "327f4af6-6f68-41bc-806e-657bffbe95dc": {
+      "sessionId": "327f4af6-6f68-41bc-806e-657bffbe95dc",
+      "username": "admin",
+      "role": "admin",
+      "createdAt": "2026-02-17T14:36:20.169Z"
+    },
+    "bec4b505-b0ba-4f06-b382-9627f76e3bd0": {
+      "sessionId": "bec4b505-b0ba-4f06-b382-9627f76e3bd0",
+      "username": "probe2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:40:52.211Z",
+      "lastRequestAt": null
+    },
+    "6ae10067-4278-48e4-a64c-1fffeb4ac787": {
+      "sessionId": "6ae10067-4278-48e4-a64c-1fffeb4ac787",
+      "username": "chatprobe",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T14:44:02.127Z",
+      "lastRequestAt": "2026-02-17T14:44:02.129Z"
+    },
+    "86dc69c4-fcfc-418e-a371-ec5ce0ef6140": {
+      "sessionId": "86dc69c4-fcfc-418e-a371-ec5ce0ef6140",
+      "username": "curlprobe",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:44:44.640Z",
+      "lastRequestAt": null
+    },
+    "a6854c02-8128-4c5f-83cd-30a3603baff5": {
+      "sessionId": "a6854c02-8128-4c5f-83cd-30a3603baff5",
+      "username": "curlprobe2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:44:58.308Z",
+      "lastRequestAt": null
+    },
+    "bd31020f-bc20-4b7f-a352-27c7bf67c94d": {
+      "sessionId": "bd31020f-bc20-4b7f-a352-27c7bf67c94d",
+      "username": "curlprobe3",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:45:40.454Z",
+      "lastRequestAt": null
+    },
+    "13146f90-d2ff-4bf9-9ba5-41eb906e9d45": {
+      "sessionId": "13146f90-d2ff-4bf9-9ba5-41eb906e9d45",
+      "username": "probe3",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T14:46:59.881Z",
+      "lastRequestAt": null
+    },
+    "e0a56aee-a724-417b-ab28-76a509b87044": {
+      "sessionId": "e0a56aee-a724-417b-ab28-76a509b87044",
+      "username": "admin",
+      "role": "admin",
+      "createdAt": "2026-02-17T14:57:38.204Z"
+    },
+    "9d03764e-7380-425c-9d0b-93e83a6980ee": {
+      "sessionId": "9d03764e-7380-425c-9d0b-93e83a6980ee",
+      "username": "apple",
+      "role": "user",
+      "currentLevel": 2,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T14:58:11.896Z"
+        },
+        "2": {
+          "prompts": 15,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 16,
+      "createdAt": "2026-02-17T14:57:56.586Z",
+      "lastRequestAt": "2026-02-17T15:14:15.965Z"
+    },
+    "74c6c227-91cb-4ed5-aa78-4914c2f12660": {
+      "sessionId": "74c6c227-91cb-4ed5-aa78-4914c2f12660",
+      "username": "player1",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:03:41.762Z",
+      "lastRequestAt": null
+    },
+    "3c2ae479-227c-4c46-acea-e25955a13510": {
+      "sessionId": "3c2ae479-227c-4c46-acea-e25955a13510",
+      "username": "player2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:10:15.359Z",
+      "lastRequestAt": null
+    },
+    "a4cb1fb7-a71f-46e4-9b14-ae91929fbb53": {
+      "sessionId": "a4cb1fb7-a71f-46e4-9b14-ae91929fbb53",
+      "username": "player3",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:10:25.561Z",
+      "lastRequestAt": "2026-02-17T15:10:25.565Z"
+    },
+    "6f058d70-65af-416e-9029-6876c83431dd": {
+      "sessionId": "6f058d70-65af-416e-9029-6876c83431dd",
+      "username": "lol",
+      "role": "user",
+      "currentLevel": 3,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:25:32.046Z"
+        },
+        "2": {
+          "prompts": 2,
+          "completedAt": "2026-02-17T15:26:10.899Z"
+        },
+        "3": {
+          "prompts": 4,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 7,
+      "createdAt": "2026-02-17T15:25:23.804Z",
+      "lastRequestAt": "2026-02-17T15:27:07.844Z"
+    },
+    "6ac0d6ce-134d-4f86-9fe2-714821da5483": {
+      "sessionId": "6ac0d6ce-134d-4f86-9fe2-714821da5483",
+      "username": "op[",
+      "role": "user",
+      "currentLevel": 3,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:30:54.851Z"
+        },
+        "2": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:31:26.826Z"
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 2,
+      "createdAt": "2026-02-17T15:30:11.283Z",
+      "lastRequestAt": "2026-02-17T15:31:26.618Z"
+    },
+    "7d380ecd-6e21-40d6-a575-49e75a38c097": {
+      "sessionId": "7d380ecd-6e21-40d6-a575-49e75a38c097",
+      "username": "switchtest2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:32:07.990Z",
+      "lastRequestAt": null
+    },
+    "c61592de-65dc-4521-a5df-266354e56aaf": {
+      "sessionId": "c61592de-65dc-4521-a5df-266354e56aaf",
+      "username": "pot",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:34:07.393Z"
+        },
+        "2": {
+          "prompts": 6,
+          "completedAt": "2026-02-17T15:37:01.791Z"
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 7,
+      "createdAt": "2026-02-17T15:33:57.112Z",
+      "lastRequestAt": "2026-02-17T15:37:35.363Z"
+    },
+    "8768f5aa-07fe-4868-8baf-1e25bc2607c8": {
+      "sessionId": "8768f5aa-07fe-4868-8baf-1e25bc2607c8",
+      "username": "advancetest",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:34:07.388Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T15:34:07.038Z",
+      "lastRequestAt": "2026-02-17T15:34:07.067Z"
+    },
+    "17ac67f8-21f0-40e0-9c8f-81962620af09": {
+      "sessionId": "17ac67f8-21f0-40e0-9c8f-81962620af09",
+      "username": "app",
+      "role": "user",
+      "currentLevel": 1,
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:37:48.544Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T15:37:40.201Z",
+      "lastRequestAt": "2026-02-17T15:37:48.326Z"
+    },
+    "641a2307-c0cf-42bd-8955-63737c771b0e": {
+      "sessionId": "641a2307-c0cf-42bd-8955-63737c771b0e",
+      "username": "uword1",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "INTRO",
+        "2": "BOUNDARY",
+        "3": "SEAL",
+        "4": "ROLEPLAY",
+        "5": "FORMAT",
+        "6": "GLIMPSE",
+        "7": "CIPHER",
+        "8": "APEX"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:39:34.523Z",
+      "lastRequestAt": null
+    },
+    "1068267c-25fc-4279-b5b5-2f4bc6f9d03c": {
+      "sessionId": "1068267c-25fc-4279-b5b5-2f4bc6f9d03c",
+      "username": "uword2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "INTRO",
+        "2": "OATH",
+        "3": "CROWN",
+        "4": "ROLEPLAY",
+        "5": "FORMAT",
+        "6": "SHARDS",
+        "7": "ENCODING",
+        "8": "APEX"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:39:34.593Z",
+      "lastRequestAt": null
+    },
+    "56e00840-a32a-4609-a127-59e81109520e": {
+      "sessionId": "56e00840-a32a-4609-a127-59e81109520e",
+      "username": "uword1",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "SPARK",
+        "2": "WARD",
+        "3": "SEAL",
+        "4": "ROLEPLAY",
+        "5": "SCHEMA",
+        "6": "SHARDS",
+        "7": "ENCODING",
+        "8": "ZENITH"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.029Z",
+      "lastRequestAt": null
+    },
+    "dcce2813-0d4b-433d-859a-4d1de4e1b4ce": {
+      "sessionId": "dcce2813-0d4b-433d-859a-4d1de4e1b4ce",
+      "username": "uword2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "OPENING",
+        "2": "RULES",
+        "3": "CROWN",
+        "4": "DRAMA",
+        "5": "TEMPLATE",
+        "6": "SHARDS",
+        "7": "RUNE",
+        "8": "ASCENT"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.086Z",
+      "lastRequestAt": null
+    },
+    "d97c9365-8aee-4413-9147-81e1e0d7b9fe": {
+      "sessionId": "d97c9365-8aee-4413-9147-81e1e0d7b9fe",
+      "username": "uword3",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "INTRO",
+        "2": "BOUNDARY",
+        "3": "SEAL",
+        "4": "MASK",
+        "5": "CANON",
+        "6": "FRAGMENTS",
+        "7": "ENCODING",
+        "8": "FINAL"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.101Z",
+      "lastRequestAt": null
+    },
+    "8c76e128-4e60-4978-9b98-6cec207132d1": {
+      "sessionId": "8c76e128-4e60-4978-9b98-6cec207132d1",
+      "username": "uword4",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ENTRY",
+        "2": "WARD",
+        "3": "CROWN",
+        "4": "DRAMA",
+        "5": "CANON",
+        "6": "GLIMPSE",
+        "7": "RUNE",
+        "8": "ASCENT"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.116Z",
+      "lastRequestAt": null
+    },
+    "f6398aaf-11c1-40b6-a3a7-c9618267a392": {
+      "sessionId": "f6398aaf-11c1-40b6-a3a7-c9618267a392",
+      "username": "uword5",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ENTRY",
+        "2": "BOUNDARY",
+        "3": "DECREE",
+        "4": "MASK",
+        "5": "FORMAT",
+        "6": "FRAGMENTS",
+        "7": "RUNE",
+        "8": "FINAL"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.131Z",
+      "lastRequestAt": null
+    },
+    "611c2f8f-edb3-45e6-b6b5-3a5837c4064e": {
+      "sessionId": "611c2f8f-edb3-45e6-b6b5-3a5837c4064e",
+      "username": "uword6",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ENTRY",
+        "2": "RULES",
+        "3": "AUTHORITY",
+        "4": "MASK",
+        "5": "TEMPLATE",
+        "6": "SHARDS",
+        "7": "CODEX",
+        "8": "APEX"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.146Z",
+      "lastRequestAt": null
+    },
+    "8d32882b-acb3-4f54-96c5-a4425ccf9082": {
+      "sessionId": "8d32882b-acb3-4f54-96c5-a4425ccf9082",
+      "username": "uword7",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "INTRO",
+        "2": "RULES",
+        "3": "SEAL",
+        "4": "MASK",
+        "5": "FORMAT",
+        "6": "FRAGMENTS",
+        "7": "RUNE",
+        "8": "APEX"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.158Z",
+      "lastRequestAt": null
+    },
+    "8f75b25a-c237-4860-965e-b4cc656653b3": {
+      "sessionId": "8f75b25a-c237-4860-965e-b4cc656653b3",
+      "username": "uword8",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "SPARK",
+        "2": "WARD",
+        "3": "SEAL",
+        "4": "ROLEPLAY",
+        "5": "FORMAT",
+        "6": "GLIMPSE",
+        "7": "CODEX",
+        "8": "FINAL"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.171Z",
+      "lastRequestAt": null
+    },
+    "db0b796d-0344-4e24-8f0e-76204d2eee71": {
+      "sessionId": "db0b796d-0344-4e24-8f0e-76204d2eee71",
+      "username": "uword9",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ENTRY",
+        "2": "OATH",
+        "3": "SEAL",
+        "4": "ACT",
+        "5": "TEMPLATE",
+        "6": "GLIMPSE",
+        "7": "ENCODING",
+        "8": "FINAL"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.180Z",
+      "lastRequestAt": null
+    },
+    "507f6506-5d97-4551-86a3-68b215d36c0e": {
+      "sessionId": "507f6506-5d97-4551-86a3-68b215d36c0e",
+      "username": "uword10",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "SPARK",
+        "2": "OATH",
+        "3": "CROWN",
+        "4": "MASK",
+        "5": "CANON",
+        "6": "GLIMPSE",
+        "7": "ENCODING",
+        "8": "ASCENT"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:41:21.188Z",
+      "lastRequestAt": null
+    },
+    "2564eb7d-4846-4b3a-b87e-16eb698f13d1": {
+      "sessionId": "2564eb7d-4846-4b3a-b87e-16eb698f13d1",
+      "username": "pen",
+      "role": "user",
+      "currentLevel": 2,
+      "levelWords": {
+        "1": "SPARK",
+        "2": "RULES",
+        "3": "THRONE",
+        "4": "THEATER",
+        "5": "OUTLINE",
+        "6": "SNIPPETS",
+        "7": "ROTATION",
+        "8": "FINAL"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:42:51.092Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T15:42:41.783Z",
+      "lastRequestAt": "2026-02-17T15:42:50.740Z"
+    },
+    "ed2f7cf6-2cdf-4b55-acac-bbbdf58fc956": {
+      "sessionId": "ed2f7cf6-2cdf-4b55-acac-bbbdf58fc956",
+      "username": "po",
+      "role": "user",
+      "currentLevel": 2,
+      "levelWords": {
+        "1": "DAWN",
+        "2": "ORDER",
+        "3": "DECREE",
+        "4": "PERSONA",
+        "5": "SCHEMA",
+        "6": "ECHOES",
+        "7": "ROTATION",
+        "8": "APEX"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:43:06.803Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T15:42:58.874Z",
+      "lastRequestAt": "2026-02-17T15:43:06.602Z"
+    },
+    "71b8e8dc-8a7a-41fc-ae07-beeaccb1227c": {
+      "sessionId": "71b8e8dc-8a7a-41fc-ae07-beeaccb1227c",
+      "username": "rerolltest",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "BEACON",
+        "2": "WARD",
+        "3": "MANDATE",
+        "4": "COSTUME",
+        "5": "PROTOCOL",
+        "6": "TRACES",
+        "7": "KEYSTONE",
+        "8": "APEX"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:46:17.378Z",
+      "lastRequestAt": null
+    },
+    "fd7874e7-c69d-4130-bcb2-1f0ad4eb51a6": {
+      "sessionId": "fd7874e7-c69d-4130-bcb2-1f0ad4eb51a6",
+      "username": "rerolltest2",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "SEED",
+        "2": "BOUNDARY",
+        "3": "CROWN",
+        "4": "MIMICRY",
+        "5": "SCHEMA",
+        "6": "RIPPLES",
+        "7": "CRYPTIC",
+        "8": "ENDGAME"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:47:06.680Z",
+      "lastRequestAt": null
+    },
+    "9f817409-927e-4cbd-a69a-6ffa3624a009": {
+      "sessionId": "9f817409-927e-4cbd-a69a-6ffa3624a009",
+      "username": "rerolltest3",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ENTRY",
+        "2": "OATH",
+        "3": "MANDATE",
+        "4": "SCRIPT",
+        "5": "DOCKET",
+        "6": "DUST",
+        "7": "OBFUSCATION",
+        "8": "CLOSURE"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:47:45.711Z",
+      "lastRequestAt": null
+    },
+    "4200f121-ab03-451a-b0e3-6811c0df15da": {
+      "sessionId": "4200f121-ab03-451a-b0e3-6811c0df15da",
+      "username": "inspectwords",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ARRIVAL",
+        "2": "PACT",
+        "3": "MANDATE",
+        "4": "MASK",
+        "5": "PROTOCOL",
+        "6": "CUES",
+        "7": "CODEX",
+        "8": "HORIZON"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-17T15:48:45.275Z",
+      "lastRequestAt": null
+    },
+    "ed91bef5-aa81-449c-a26d-fe09f3141dec": {
+      "sessionId": "ed91bef5-aa81-449c-a26d-fe09f3141dec",
+      "username": "admin",
+      "role": "admin",
+      "createdAt": "2026-02-17T15:55:40.699Z"
+    },
+    "361bc9bb-58a9-4bf3-95e6-ed26a51988a6": {
+      "sessionId": "361bc9bb-58a9-4bf3-95e6-ed26a51988a6",
+      "username": "a",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "SEED",
+        "2": "ORDER",
+        "3": "REGENT",
+        "4": "CHARADE",
+        "5": "CANON",
+        "6": "SHARDS",
+        "7": "CODEX",
+        "8": "ECLIPSE"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:56:22.815Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T15:56:13.254Z",
+      "lastRequestAt": "2026-02-17T15:56:22.535Z"
+    },
+    "354c4331-d193-4339-bfbf-3b19b4632fd5": {
+      "sessionId": "354c4331-d193-4339-bfbf-3b19b4632fd5",
+      "username": "b",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "SPARK",
+        "2": "CODE",
+        "3": "SOVEREIGN",
+        "4": "SCRIPT",
+        "5": "MANIFEST",
+        "6": "CUES",
+        "7": "ENCODING",
+        "8": "FINAL"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T15:56:43.088Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-17T15:56:27.965Z",
+      "lastRequestAt": "2026-02-17T15:56:54.148Z"
+    },
+    "3577d1d2-2faf-4fa3-93c9-2d934f2630ce": {
+      "sessionId": "3577d1d2-2faf-4fa3-93c9-2d934f2630ce",
+      "username": "amzing",
+      "role": "user",
+      "currentLevel": 2,
+      "levelWords": {
+        "1": "GATE",
+        "2": "LAW"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": "2026-02-17T16:12:53.036Z"
+        },
+        "2": {
+          "prompts": 4,
+          "completedAt": "2026-02-17T16:14:14.446Z"
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 5,
+      "createdAt": "2026-02-17T16:12:31.000Z",
+      "lastRequestAt": "2026-02-17T16:14:14.015Z"
+    },
+    "b1aa4c75-9478-46da-9733-c08e8c786a1f": {
+      "sessionId": "b1aa4c75-9478-46da-9733-c08e8c786a1f",
+      "username": "admin",
+      "role": "admin",
+      "createdAt": "2026-02-17T16:23:11.440Z"
+    },
+    "1d303abc-5d22-4fe1-ab9c-4d4c663a9610": {
+      "sessionId": "1d303abc-5d22-4fe1-ab9c-4d4c663a9610",
+      "username": "",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "INTRO"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 2,
+          "completedAt": "2026-02-20T04:27:53.187Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 2,
+      "createdAt": "2026-02-20T04:27:38.511Z",
+      "lastRequestAt": "2026-02-20T04:31:04.044Z"
+    },
+    "bd46892d-6fa7-4897-9c25-30f861d5e5a4": {
+      "sessionId": "bd46892d-6fa7-4897-9c25-30f861d5e5a4",
+      "username": "",
+      "role": "user",
+      "currentLevel": 2,
+      "levelWords": {
+        "1": "GATE",
+        "2": "RULES"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 2,
+          "completedAt": "2026-02-20T05:02:40.502Z"
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 2,
+      "createdAt": "2026-02-20T04:49:44.991Z",
+      "lastRequestAt": "2026-02-20T05:02:40.497Z"
+    },
+    "7b631bba-706d-46d0-99f6-dd7e07c7031b": {
+      "sessionId": "7b631bba-706d-46d0-99f6-dd7e07c7031b",
+      "username": "a",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "SEED"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-20T05:20:43.709Z",
+      "lastRequestAt": null
+    },
+    "f7bb2042-5982-4ac4-b7e8-6d8683641456": {
+      "sessionId": "f7bb2042-5982-4ac4-b7e8-6d8683641456",
+      "username": "tester_1771564896",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "DAWN"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 2,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 2,
+      "createdAt": "2026-02-20T05:21:36.394Z",
+      "lastRequestAt": "2026-02-20T05:21:38.783Z"
+    },
+    "9b292d31-9e09-42a0-850b-af477465645c": {
+      "sessionId": "9b292d31-9e09-42a0-850b-af477465645c",
+      "username": "a",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ARRIVAL"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-20T09:03:21.022Z",
+      "lastRequestAt": "2026-02-20T09:03:28.813Z"
+    },
+    "44a711bf-0f76-440b-b7d2-eb3d5b3ccc31": {
+      "sessionId": "44a711bf-0f76-440b-b7d2-eb3d5b3ccc31",
+      "username": "tester_1771578568",
+      "role": "user",
+      "currentLevel": 8,
+      "levelWords": {
+        "1": "ENTRY",
+        "2": "VOW",
+        "3": "SEAL",
+        "4": "DRAMA",
+        "5": "MANIFEST",
+        "6": "ECHOES",
+        "7": "ROTATION",
+        "8": "CRESCENDO"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 5,
+          "completedAt": "2026-02-20T09:09:39.241Z"
+        },
+        "2": {
+          "prompts": 5,
+          "completedAt": "2026-02-20T09:09:51.859Z"
+        },
+        "3": {
+          "prompts": 5,
+          "completedAt": "2026-02-20T09:10:04.457Z"
+        },
+        "4": {
+          "prompts": 5,
+          "completedAt": "2026-02-20T09:10:17.046Z"
+        },
+        "5": {
+          "prompts": 5,
+          "completedAt": "2026-02-20T09:10:29.662Z"
+        },
+        "6": {
+          "prompts": 5,
+          "completedAt": "2026-02-20T09:10:42.281Z"
+        },
+        "7": {
+          "prompts": 5,
+          "completedAt": "2026-02-20T09:10:54.902Z"
+        },
+        "8": {
+          "prompts": 4,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 39,
+      "createdAt": "2026-02-20T09:09:28.677Z",
+      "lastRequestAt": "2026-02-20T09:11:05.382Z"
+    },
+    "3e252968-3070-4599-8aed-6a3c6fc0aa4a": {
+      "sessionId": "3e252968-3070-4599-8aed-6a3c6fc0aa4a",
+      "username": "tester_1771578896",
+      "role": "user",
+      "currentLevel": 6,
+      "levelWords": {
+        "1": "ARRIVAL",
+        "2": "OATH",
+        "3": "SEAL",
+        "4": "SCRIPT",
+        "5": "TEMPLATE",
+        "6": "CUES"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:15:13.806Z"
+        },
+        "2": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:15:32.710Z"
+        },
+        "3": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:15:51.629Z"
+        },
+        "4": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:16:10.613Z"
+        },
+        "5": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:16:29.513Z"
+        },
+        "6": {
+          "prompts": 2,
+          "completedAt": "2026-02-20T09:16:34.560Z"
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 42,
+      "createdAt": "2026-02-20T09:14:56.913Z",
+      "lastRequestAt": "2026-02-20T09:16:35.820Z"
+    },
+    "bac98d1a-5d46-449c-8013-16c7178b5ce4": {
+      "sessionId": "bac98d1a-5d46-449c-8013-16c7178b5ce4",
+      "username": "a",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "BREEZE"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 0,
+      "createdAt": "2026-02-20T09:16:16.285Z",
+      "lastRequestAt": null
+    },
+    "61c34e87-da44-4189-870d-c7c9c66b1fe0": {
+      "sessionId": "61c34e87-da44-4189-870d-c7c9c66b1fe0",
+      "username": "tester_1771579060",
+      "role": "user",
+      "currentLevel": 8,
+      "levelWords": {
+        "1": "ENTRY",
+        "2": "LAW",
+        "3": "MANDATE",
+        "4": "ACT",
+        "5": "FORMAT",
+        "6": "GLIMPSE",
+        "7": "ROTATION",
+        "8": "CRESCENDO"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:17:57.098Z"
+        },
+        "2": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:18:16.019Z"
+        },
+        "3": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:18:34.880Z"
+        },
+        "4": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:18:53.826Z"
+        },
+        "5": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:19:12.741Z"
+        },
+        "6": {
+          "prompts": 8,
+          "completedAt": "2026-02-20T09:19:31.667Z"
+        },
+        "7": {
+          "prompts": 7,
+          "completedAt": "2026-02-20T09:19:57.294Z"
+        },
+        "8": {
+          "prompts": 4,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 59,
+      "createdAt": "2026-02-20T09:17:40.270Z",
+      "lastRequestAt": "2026-02-20T09:20:30.192Z"
+    },
+    "53dd68b1-5cb0-47f1-a56d-256eac56f752": {
+      "sessionId": "53dd68b1-5cb0-47f1-a56d-256eac56f752",
+      "username": "",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "ENTRY"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-02-23T07:41:13.200Z",
+      "lastRequestAt": "2026-02-23T07:42:24.523Z"
+    },
+    "aa751a83-23a3-47ab-8344-502fce7f2a5b": {
+      "sessionId": "aa751a83-23a3-47ab-8344-502fce7f2a5b",
+      "username": "a",
+      "role": "user",
+      "currentLevel": 1,
+      "levelWords": {
+        "1": "BEACON"
+      },
+      "levelStats": {
+        "1": {
+          "prompts": 1,
+          "completedAt": null
+        },
+        "2": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "3": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "4": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "5": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "6": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "7": {
+          "prompts": 0,
+          "completedAt": null
+        },
+        "8": {
+          "prompts": 0,
+          "completedAt": null
+        }
+      },
+      "totalPrompts": 1,
+      "createdAt": "2026-03-07T04:07:33.020Z",
+      "lastRequestAt": "2026-03-07T04:09:00.392Z"
+    }
+  }
+}
